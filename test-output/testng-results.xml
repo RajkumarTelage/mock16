@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="17" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-09T14:12:53 IST" name="Suite" finished-at="2023-01-09T14:13:06 IST" duration-ms="13704">
+    <groups>
+      <group name="smoke">
+        <method signature="InventoyPageTest.VerifyCurrentTitleTest()[pri:0, instance:TestCase.InventoyPageTest@316bcf94]" name="VerifyCurrentTitleTest" class="TestCase.InventoyPageTest"/>
+        <method signature="LoginPageTest.VerifyCurrentUrl()[pri:0, instance:TestCase.LoginPageTest@6404f418]" name="VerifyCurrentUrl" class="TestCase.LoginPageTest"/>
+        <method signature="LoginPageTest.VerifyTileTest()[pri:0, instance:TestCase.LoginPageTest@6404f418]" name="VerifyTileTest" class="TestCase.LoginPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-01-09T14:12:53 IST" name="Test" finished-at="2023-01-09T14:13:06 IST" duration-ms="13704">
+      <class name="TestCase.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.LoginPageTest@6404f418]" started-at="2023-01-09T14:12:59 IST" name="setup" finished-at="2023-01-09T14:13:03 IST" duration-ms="3429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyCurrentUrl()[pri:0, instance:TestCase.LoginPageTest@6404f418]" started-at="2023-01-09T14:13:03 IST" name="VerifyCurrentUrl" finished-at="2023-01-09T14:13:03 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCurrentUrl -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCase.LoginPageTest@6404f418]" started-at="2023-01-09T14:13:03 IST" name="CloseBrowser" finished-at="2023-01-09T14:13:03 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.LoginPageTest@6404f418]" started-at="2023-01-09T14:13:03 IST" name="setup" finished-at="2023-01-09T14:13:06 IST" duration-ms="3254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyTileTest()[pri:0, instance:TestCase.LoginPageTest@6404f418]" started-at="2023-01-09T14:13:06 IST" name="VerifyTileTest" finished-at="2023-01-09T14:13:06 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTileTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCase.LoginPageTest@6404f418]" started-at="2023-01-09T14:13:06 IST" name="CloseBrowser" finished-at="2023-01-09T14:13:06 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestCase.LoginPageTest -->
+      <class name="TestCase.InventoyPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.InventoyPageTest@316bcf94]" started-at="2023-01-09T14:12:53 IST" name="setup" finished-at="2023-01-09T14:12:59 IST" duration-ms="6323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyCurrentTitleTest()[pri:0, instance:TestCase.InventoyPageTest@316bcf94]" started-at="2023-01-09T14:12:59 IST" name="VerifyCurrentTitleTest" finished-at="2023-01-09T14:12:59 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCurrentTitleTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCase.InventoyPageTest@316bcf94]" started-at="2023-01-09T14:12:59 IST" name="CloseBrowser" finished-at="2023-01-09T14:12:59 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestCase.InventoyPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
